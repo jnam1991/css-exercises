@@ -55,6 +55,8 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   flex-basis: 300px;
+  flex-shrink: 0;
+  padding: 32px;
 }
 
 .container {
@@ -67,9 +69,4 @@ a {
   flex-wrap: wrap;
   gap: 30px;
   margin: 30px;
-}
-
-.card {
-  flex-shrink: 0;
-  padding: 16px;
 }
