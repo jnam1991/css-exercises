@@ -23,6 +23,23 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: 24px;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
 }
 
 .card {
@@ -34,17 +51,17 @@ body {
 
 .container {
   display: flex;
-  flex: 1 1 auto;
-  gap: 30px;
+  flex-grow: 1;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin: 30px 0;
+  margin: 30px;
 }
 
 .card {
   flex-shrink: 0;
+  padding: 16px;
 }
